@@ -1,4 +1,4 @@
-Materialien, die wir vom Institut bekommen haben:
+## Materialien, die wir vom Institut bekommen haben:
 
 | Menge | Bezeichnung | Beschreibung |
 | ----- | ----------- | ------------ |
