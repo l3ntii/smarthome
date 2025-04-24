@@ -1,8 +1,8 @@
-###Zugangsdaten zum SensorPi (Raspberry Pi 3): 
+### Zugangsdaten zum SensorPi (Raspberry Pi 3): 
 user: admin
 password: password
 
-###Zugangsdaten zum AktorPi (Raspberry Pi 4): 
+### Zugangsdaten zum AktorPi (Raspberry Pi 4): 
 user: admin
 password: admin 
 
