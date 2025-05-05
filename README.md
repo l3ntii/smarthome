@@ -42,16 +42,18 @@ Die Kommunikation zwischen beiden Geräten erfolgt über einen MQTT-Broker im lo
 - Verkabelung und Aufbau laut `materialliste.md`
 
 ### Vorbereitung
-Beide Pis sollten Zugriff auf das Projektverzeichnis erhalten. Das Repository muss geklont und die Abhängigkeiten installiert werden. Außerdem müssen die MQTT-Clients richtig eingestellt werden, da die RPis in einem anderen Netzwerk andere IP-Adressen zugeordnet werden.
+Beide Pis sollten Zugriff auf das Projektverzeichnis erhalten. Das Repository muss geklont und die Abhängigkeiten installiert werden. Außerdem müssen die MQTT-Clients richtig eingestellt werden, da die RPis in  anderen Netzwerken andere IP-Adressen zugeordnet werden.
 
 ### Start der Systeme
 Auf dem Sensor-RPi:
-```cd sensor-rpi
-python3 main.py```
+```bash
+cd sensor-rpi
+python3 main.py
 
 Auf dem Aktor-RPi:
-```cd aktor-rpi
-python3 smarthome.py```
+```bash
+cd aktor-rpi
+python3 smarthome.py
 
 Danach kann man über den lokalen Browser auf die Webgui zugreifen unter 'xxx.xxx.xxx.xxx:5000', je nachdem was die IP-Adresse des Aktor-RPis im lokalen Netzwerk ist.
 
