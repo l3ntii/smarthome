@@ -59,4 +59,8 @@ python3 smarthome.py
 
 Danach kann man über den lokalen Browser auf die Webgui zugreifen unter 'xxx.xxx.xxx.xxx:5000', je nachdem was die IP-Adresse des Aktor-RPis im lokalen Netzwerk ist.
 
+## Demo-Video
+Eine Demo-Video findet ihr unter folgenden Link: 
+'https://drive.google.com/file/d/1_4T4uNUWU9gPz4-EKh7E4mCaBF9K2JlI/view'
+
 
