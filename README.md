@@ -49,11 +49,13 @@ Auf dem Sensor-RPi:
 ```bash
 cd sensor-rpi
 python3 main.py
+```
 
 Auf dem Aktor-RPi:
 ```bash
 cd aktor-rpi
 python3 smarthome.py
+```
 
 Danach kann man über den lokalen Browser auf die Webgui zugreifen unter 'xxx.xxx.xxx.xxx:5000', je nachdem was die IP-Adresse des Aktor-RPis im lokalen Netzwerk ist.
 
