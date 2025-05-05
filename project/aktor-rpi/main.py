@@ -1,26 +1,28 @@
 import threading
-from sensors import temp, safety, alarm, light
+from mqtt import subscriber
+from logic import control
+from logic import actions
 
 def main():
-    print("Temperature and Safety sensors are running... (Press Ctrl+C to stop)")
+    print("System starting...")
 
-    temp_thread = threading.Thread(target=temp.run, daemon=True)
-    temp_thread.start()
+    subscriber.start()
 
-    safety_thread = threading.Thread(target=safety.run, daemon=True)
-    safety_thread.start()
+    control_thread = threading.Thread(target=control.run, daemon=True)
+    control_thread.start()
 
-    alarm_thread = threading.Thread(target=alarm.run, daemon=True)
-    alarm_thread.start()
-
-    light_thread = threading.Thread(target=light.run, daemon=True)
-    light_thread.start()
+    print("Aktor-RPi is running. Press Ctrl+C to exit.")
 
     try:
         while True:
             pass
     except KeyboardInterrupt:
-        print("\nShutting down program.")
+        print("\nShutting down...")
+        actions.set_fan(False)
+        actions.set_heat(False)
+        actions.set_light(False)
+        actions.buzzer_off
+        actions.cleanup()
 
 if __name__ == "__main__":
     main()
