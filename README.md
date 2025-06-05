@@ -37,8 +37,8 @@ Die Kommunikation zwischen beiden Geräten erfolgt über einen MQTT-Broker im lo
 ### Voraussetzungen
 - Zwei Raspberry Pis im selben Netzwerk
 - MQTT-Broker (z. B. Mosquitto) installiert und laufend
-- Python 3 + benötigte Bibliotheken (siehe unten)
-- Verkabelung und Aufbau laut `materialliste.md`
+- Alle benötigte Bibliotheken 
+- Verkabelung und Aufbau 
 
 ### Vorbereitung
 Beide Pis sollten Zugriff auf das Projektverzeichnis erhalten. Das Repository muss geklont und die Abhängigkeiten installiert werden. Außerdem müssen die MQTT-Clients richtig eingestellt werden, da die RPis in  anderen Netzwerken andere IP-Adressen zugeordnet werden.
