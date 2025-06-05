@@ -41,7 +41,7 @@ Die Kommunikation zwischen beiden Geräten erfolgt über einen MQTT-Broker im lo
 - Verkabelung und Aufbau 
 
 ### Vorbereitung
-Beide Pis sollten Zugriff auf das Projektverzeichnis erhalten. Das Repository muss geklont und die Abhängigkeiten installiert werden. Außerdem müssen die MQTT-Clients richtig eingestellt werden, da die RPis in  anderen Netzwerken andere IP-Adressen zugeordnet werden.
+Beide Pis sollten Zugriff auf das Projektverzeichnis erhalten. Das Repository muss geklont und die Abhängigkeiten installiert werden. Außerdem müssen die MQTT-Clients richtig eingestellt werden, da die RPis in  anderen Netzwerken andere IP-Adressen zugeordnet werden. Der Broker MQTT-Broker läuft in unserem Fall auf dem Aktor-RPi, also muss in den Files die IP-Adresse des Aktor-RPis berücksichtigt werden.
 
 ### Start der Systeme
 Auf dem Sensor-RPi:
