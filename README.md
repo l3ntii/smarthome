@@ -56,7 +56,7 @@ cd aktor-rpi
 python3 smarthome.py
 ```
 
-Danach kann man über den lokalen Browser auf die Webgui zugreifen unter 'xxx.xxx.xxx.xxx:5000', je nachdem was die IP-Adresse des Aktor-RPis im lokalen Netzwerk ist.
+Danach kann man über den lokalen Browser auf die WebGUI zugreifen unter 'xxx.xxx.xxx.xxx:5000', je nachdem was die IP-Adresse des Aktor-RPis im lokalen Netzwerk ist.
 
 ## Demo-Video
 Eine Demo-Video findet ihr unter folgenden Link: 
