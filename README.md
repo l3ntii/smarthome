@@ -30,7 +30,6 @@ Die Kommunikation zwischen beiden Geräten erfolgt über einen MQTT-Broker im lo
 - VL6180X (ToF-Abstandssensor)
 - HC-SR04 (Ultraschallsensor)
 - Photoresistor (zur Helligkeitserkennung)
-- Servo-PWM-HAT (für Lüftersteuerung)
 - Verschiedene LEDs und ein Buzzer
 
 ## Installation und Inbetriebnahme
