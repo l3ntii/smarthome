@@ -1,3 +1,4 @@
+## Benutzerhinweise für die Gruppenmitglieder
 ### Zugangsdaten zum SensorRPi (Raspberry Pi 3): 
 user: admin
 password: password
